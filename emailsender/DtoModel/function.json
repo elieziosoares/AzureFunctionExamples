@@ -1,0 +1,17 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.2.0",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "Endpoint=sb://service-bus-email-test.servicebus.windows.net/;SharedAccessKeyName=client;SharedAccessKey=ReUkvtwy5aUcjkSOPVrGhu6HRUm2aBpkc+ASbOjpuT0=;",
+      "queueName": "queue-email-sending-test",
+      "isSessionsEnabled": false,
+      "autoComplete": true,
+      "name": "MessageBody"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/AzureFunctions.dll",
+  "entryPoint": "gls.emailsender.emailSenderFunction.Run"
+}

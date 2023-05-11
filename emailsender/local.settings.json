@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "SmtpConfiguration:SmtpServer": "smtp.gmail.com",
+    "SmtpConfiguration:Port": 587,
+    "SmtpConfiguration:Username": "globallabsystemstest@gmail.com",
+    "SmtpConfiguration:Password": "jxxtwmgxzywzdahw",
+    "SmtpConfiguration:EnableSsl": true,
+    "servicebusemailtest_SERVICEBUS": "Endpoint=sb://service-bus-email-test.servicebus.windows.net/;SharedAccessKeyName=client;SharedAccessKey=+sEs3rjncVNtYZ8E0PFVCwvDUWRCAOK6F+ASbAeDqbA=;"
+  }                                    
+}

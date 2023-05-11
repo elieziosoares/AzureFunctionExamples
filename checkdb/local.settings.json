@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "QueueConfiguration:ConnectionString": "Endpoint=sb://service-bus-email-test.servicebus.windows.net/;SharedAccessKeyName=Read-Send;SharedAccessKey=hVBb1Wp+7n8muffPzreRaDXsferoQ7r1f+ASbMAwQV4=;",
+    "QueueConfiguration:Name": "queue-email-sending-test"
+  }
+}
